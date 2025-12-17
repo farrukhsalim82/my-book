@@ -1,0 +1,55 @@
+/* Hero banner styling */
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttons a {
+  margin: 0 0.5rem;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.learningPoints, .prerequisites {
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+.learningPoints li, .prerequisites li {
+  margin-bottom: 0.75rem;
+}
+
+.getStarted {
+  background-color: #f6f8fa;
+}
+
+.bg-gray {
+  background-color: #fafafa;
+}
